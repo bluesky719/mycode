@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HamburgerButton : UIView
+@interface HamburgerButton : UIButton
+
+@property (nonatomic, assign) BOOL showMenu;
 
 @end
