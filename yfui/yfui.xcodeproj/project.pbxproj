@@ -19,6 +19,10 @@
 		8CF9BCC8199322A9000FD64D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9BCB0199322A9000FD64D /* UIKit.framework */; };
 		8CF9BCD0199322A9000FD64D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CF9BCCE199322A9000FD64D /* InfoPlist.strings */; };
 		8CF9BCD2199322A9000FD64D /* yfuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9BCD1199322A9000FD64D /* yfuiTests.m */; };
+		8CF9BCE1199324C6000FD64D /* HamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9BCE0199324C6000FD64D /* HamburgerButton.m */; };
+		8CF9BCE31993250C000FD64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF9BCE21993250C000FD64D /* Main.storyboard */; };
+		8CF9BCEB199325D3000FD64D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9BCEA199325D3000FD64D /* MainViewController.m */; };
+		8CF9BCEE199326C0000FD64D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9BCED199326C0000FD64D /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		8CF9BCCD199322A9000FD64D /* yfuiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yfuiTests-Info.plist"; sourceTree = "<group>"; };
 		8CF9BCCF199322A9000FD64D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8CF9BCD1199322A9000FD64D /* yfuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yfuiTests.m; sourceTree = "<group>"; };
+		8CF9BCDF199324C6000FD64D /* HamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HamburgerButton.h; path = Button/HamburgerButton.h; sourceTree = "<group>"; };
+		8CF9BCE0199324C6000FD64D /* HamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HamburgerButton.m; path = Button/HamburgerButton.m; sourceTree = "<group>"; };
+		8CF9BCE21993250C000FD64D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8CF9BCE9199325D3000FD64D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8CF9BCEA199325D3000FD64D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8CF9BCEC199326C0000FD64D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8CF9BCED199326C0000FD64D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +118,16 @@
 		8CF9BCB2199322A9000FD64D /* yfui */ = {
 			isa = PBXGroup;
 			children = (
+				8CF9BCDB19932400000FD64D /* Control */,
 				8CF9BCBB199322A9000FD64D /* AppDelegate.h */,
 				8CF9BCBC199322A9000FD64D /* AppDelegate.m */,
+				8CF9BCEC199326C0000FD64D /* TestViewController.h */,
+				8CF9BCED199326C0000FD64D /* TestViewController.m */,
+				8CF9BCE9199325D3000FD64D /* MainViewController.h */,
+				8CF9BCEA199325D3000FD64D /* MainViewController.m */,
 				8CF9BCBE199322A9000FD64D /* Images.xcassets */,
 				8CF9BCB3199322A9000FD64D /* Supporting Files */,
+				8CF9BCE21993250C000FD64D /* Main.storyboard */,
 			);
 			path = yfui;
 			sourceTree = "<group>";
@@ -142,6 +159,23 @@
 				8CF9BCCE199322A9000FD64D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CF9BCDB19932400000FD64D /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				8CF9BCDE19932490000FD64D /* Button */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		8CF9BCDE19932490000FD64D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				8CF9BCDF199324C6000FD64D /* HamburgerButton.h */,
+				8CF9BCE0199324C6000FD64D /* HamburgerButton.m */,
+			);
+			name = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +255,7 @@
 			files = (
 				8CF9BCB7199322A9000FD64D /* InfoPlist.strings in Resources */,
 				8CF9BCBF199322A9000FD64D /* Images.xcassets in Resources */,
+				8CF9BCE31993250C000FD64D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF9BCE1199324C6000FD64D /* HamburgerButton.m in Sources */,
 				8CF9BCBD199322A9000FD64D /* AppDelegate.m in Sources */,
 				8CF9BCB9199322A9000FD64D /* main.m in Sources */,
+				8CF9BCEB199325D3000FD64D /* MainViewController.m in Sources */,
+				8CF9BCEE199326C0000FD64D /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yfui/yfui-Prefix.pch";
 				INFOPLIST_FILE = "yfui/yfui-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yfui/yfui-Prefix.pch";
 				INFOPLIST_FILE = "yfui/yfui-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -439,6 +479,7 @@
 				8CF9BCD7199322A9000FD64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CF9BCD8199322A9000FD64D /* Build configuration list for PBXNativeTarget "yfuiTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +488,7 @@
 				8CF9BCDA199322A9000FD64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

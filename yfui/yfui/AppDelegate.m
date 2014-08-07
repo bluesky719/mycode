@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 yfstudio. All rights reserved.
 //
 
+#import "MainViewController.h"
 #import "AppDelegate.h"
 
 @implementation AppDelegate
@@ -15,6 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateInitialViewController];
     [self.window makeKeyAndVisible];
     return YES;
 }
