@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8CF9BC3219931EDC000FD64D"
-               BuildableName = "HamburgerButton.app"
-               BlueprintName = "HamburgerButton"
-               ReferencedContainer = "container:HamburgerButton.xcodeproj">
+               BlueprintIdentifier = "8CF9BCA8199322A9000FD64D"
+               BuildableName = "yfui.app"
+               BlueprintName = "yfui"
+               ReferencedContainer = "container:yfui.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8CF9BC4D19931EDC000FD64D"
-               BuildableName = "HamburgerButtonTests.xctest"
-               BlueprintName = "HamburgerButtonTests"
-               ReferencedContainer = "container:HamburgerButton.xcodeproj">
+               BlueprintIdentifier = "8CF9BCC3199322A9000FD64D"
+               BuildableName = "yfuiTests.xctest"
+               BlueprintName = "yfuiTests"
+               ReferencedContainer = "container:yfui.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CF9BC3219931EDC000FD64D"
-            BuildableName = "HamburgerButton.app"
-            BlueprintName = "HamburgerButton"
-            ReferencedContainer = "container:HamburgerButton.xcodeproj">
+            BlueprintIdentifier = "8CF9BCA8199322A9000FD64D"
+            BuildableName = "yfui.app"
+            BlueprintName = "yfui"
+            ReferencedContainer = "container:yfui.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CF9BC3219931EDC000FD64D"
-            BuildableName = "HamburgerButton.app"
-            BlueprintName = "HamburgerButton"
-            ReferencedContainer = "container:HamburgerButton.xcodeproj">
+            BlueprintIdentifier = "8CF9BCA8199322A9000FD64D"
+            BuildableName = "yfui.app"
+            BlueprintName = "yfui"
+            ReferencedContainer = "container:yfui.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CF9BC3219931EDC000FD64D"
-            BuildableName = "HamburgerButton.app"
-            BlueprintName = "HamburgerButton"
-            ReferencedContainer = "container:HamburgerButton.xcodeproj">
+            BlueprintIdentifier = "8CF9BCA8199322A9000FD64D"
+            BuildableName = "yfui.app"
+            BlueprintName = "yfui"
+            ReferencedContainer = "container:yfui.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

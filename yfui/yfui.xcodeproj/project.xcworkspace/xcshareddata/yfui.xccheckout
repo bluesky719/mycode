@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7493CCC5-131A-4567-907D-1EAA6B03CF34</string>
+	<string>7DD3246E-5804-4568-9AA0-BF9E1E34ABC4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>HamburgerButton</string>
+	<string>yfui</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>872C6A4A-1800-4D5C-B135-2398522BD025</key>
 		<string>https://github.com/bluesky719/mycode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UI/Button/Hamburger/HamburgerButton/HamburgerButton.xcodeproj/project.xcworkspace</string>
+	<string>yfui/yfui.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>872C6A4A-1800-4D5C-B135-2398522BD025</key>
-		<string>../../../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/bluesky719/mycode.git</string>

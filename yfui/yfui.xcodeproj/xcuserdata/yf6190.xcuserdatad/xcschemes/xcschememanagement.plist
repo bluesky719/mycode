@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HamburgerButton.xcscheme</key>
+		<key>yfui.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8CF9BC3219931EDC000FD64D</key>
+		<key>8CF9BCA8199322A9000FD64D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8CF9BC4D19931EDC000FD64D</key>
+		<key>8CF9BCC3199322A9000FD64D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,6 +1,6 @@
 //
-//  HamburgerButtonTests.m
-//  HamburgerButtonTests
+//  yfuiTests.m
+//  yfuiTests
 //
 //  Created by yf6190 on 8/7/14.
 //  Copyright (c) 2014 yfstudio. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface HamburgerButtonTests : XCTestCase
+@interface yfuiTests : XCTestCase
 
 @end
 
-@implementation HamburgerButtonTests
+@implementation yfuiTests
 
 - (void)setUp
 {
