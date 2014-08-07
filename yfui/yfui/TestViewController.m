@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 yfstudio. All rights reserved.
 //
 
+#import "HamburgerButton.h"
 #import "TestViewController.h"
 
 @interface TestViewController ()
@@ -27,13 +28,18 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor colorWithRed:38./255 green:151./255 blue:68./255 alpha:1.];
+//    self.view.backgroundColor = UIColorFromRGB(0x88C057);
+    self.view.backgroundColor = UIColorFromRGB(0x32BC43);
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)hamburgerClicked:(HamburgerButton *)sender
+{
+    sender.showMenu = !sender.showMenu;
 }
 
 /*

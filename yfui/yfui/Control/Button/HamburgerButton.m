@@ -6,13 +6,15 @@
 //  Copyright (c) 2014 yfstudio. All rights reserved.
 //
 
+// It's inspired by excellent https://github.com/robb/hamburger-button (swift version).
 #import "HamburgerButton.h"
 
-@implementation CALayer(ocb_animation)
-- (void)ocb_applyAnimation:(CABasicAnimation *)animation
+@implementation CALayer(yf_animation)
+// Add animation, and update model value in meantime.
+- (void)yf_applyAnimation:(CABasicAnimation *)animation
 {
     CABasicAnimation *animation1 = [animation copy];
-    if (![animation1.fromValue intValue]) {
+    if (!animation1.fromValue) {
         animation1.fromValue = [[self presentationLayer] valueForKeyPath:animation1.keyPath];
     }
     [self addAnimation:animation1 forKey:animation1.keyPath];
@@ -79,23 +81,12 @@
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
-*/
+
 - (void)drawRect:(CGRect)rect
 {
     // Drawing code
-//    CGContextFillRect(UIGraphicsGetCurrentContext(), rect);
 }
-
-
-- (void)willMoveToSuperview:(UIView *)newSuperview
-{
-    [NSTimer scheduledTimerWithTimeInterval:2.f target:self selector:@selector(delayDispose) userInfo:nil repeats:YES];
-}
-
-- (void)delayDispose
-{
-    self.showMenu = !self.showMenu;
-}
+*/
 
 - (CAShapeLayer *)shapeLayerWithPath:(CGPathRef)path
 {
@@ -167,8 +158,8 @@
         strokeEnd.duration = 0.6;
         strokeEnd.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.25f :0.3f :0.5f :0.9f];
     }
-    [self.middle ocb_applyAnimation:strokeStart];
-    [self.middle ocb_applyAnimation:strokeEnd];
+    [self.middle yf_applyAnimation:strokeStart];
+    [self.middle yf_applyAnimation:strokeEnd];
 
     CABasicAnimation *topTransform = [CABasicAnimation animationWithKeyPath:@"transform"];
     topTransform.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.5f :-0.8f :0.5f :1.85f];
@@ -187,8 +178,8 @@
         bottomTransform.toValue = [NSValue valueWithCATransform3D:CATransform3DIdentity];
         bottomTransform.beginTime = CACurrentMediaTime() + 0.05;
     }
-    [self.top ocb_applyAnimation:topTransform];
-    [self.bottom ocb_applyAnimation:bottomTransform];
+    [self.top yf_applyAnimation:topTransform];
+    [self.bottom yf_applyAnimation:bottomTransform];
 }
 
 @end

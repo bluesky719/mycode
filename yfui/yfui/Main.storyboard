@@ -68,6 +68,9 @@
                             <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="51U-9z-mHl" customClass="HamburgerButton">
                                 <rect key="frame" x="133" y="133" width="54" height="54"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <action selector="hamburgerClicked:" destination="xdR-JB-py7" eventType="touchUpInside" id="s8h-nd-HVf"/>
+                                </connections>
                             </view>
                         </subviews>
                     </view>
