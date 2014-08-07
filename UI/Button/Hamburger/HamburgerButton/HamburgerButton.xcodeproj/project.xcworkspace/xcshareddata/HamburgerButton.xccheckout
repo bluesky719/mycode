@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7493CCC5-131A-4567-907D-1EAA6B03CF34</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HamburgerButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>872C6A4A-1800-4D5C-B135-2398522BD025</key>
+		<string>https://github.com/bluesky719/mycode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UI/Button/Hamburger/HamburgerButton/HamburgerButton.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>872C6A4A-1800-4D5C-B135-2398522BD025</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bluesky719/mycode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>872C6A4A-1800-4D5C-B135-2398522BD025</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>872C6A4A-1800-4D5C-B135-2398522BD025</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
